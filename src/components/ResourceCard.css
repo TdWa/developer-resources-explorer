@@ -1,0 +1,16 @@
+#resourceCard {
+  margin-bottom: 30px;
+}
+
+.tag {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  margin: 5px;
+  margin-top: 0;
+  padding: 3px;
+  color: gray;
+}
+
+#resourceCard button {
+  margin-right: 5px;
+}

@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { useSelector } from "react-redux";
 import OverviewCards from "./components/OverviewCards";
+import ResourcesSection from "./components/ResourcesSection";
+import AddResourceForm from "./components/AddResourceForm";
 import "./main.css";
 import { selectResources } from "./store/resources/selectors";
 import {
@@ -83,6 +85,8 @@ function App() {
           </div>
         </div>
       </div>
+      <ResourcesSection />
+      <AddResourceForm />
     </div>
   );
 }
